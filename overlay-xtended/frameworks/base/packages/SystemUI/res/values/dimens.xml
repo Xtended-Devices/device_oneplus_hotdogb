@@ -20,4 +20,8 @@
     <dimen name="config_customCutoutTopHeight">218.0px</dimen>
     <dimen name="config_customCutoutBottomWidth">540.0px</dimen>
     <dimen name="config_customCutoutBottomHeight">211.0px</dimen>
+
+    <!-- FOD recognizing animation -->
+    <dimen name="fod_animation_size">550.0px</dimen>
+    <dimen name="fod_animation_offset">20.0px</dimen>
 </resources>
