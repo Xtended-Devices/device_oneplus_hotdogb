@@ -14,8 +14,8 @@ $(call inherit-product, device/oneplus/hotdogb/device.mk)
 # Inherit some common xtended stuff.
 $(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 
-# Inherit PixelGApps
-$(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
+# Inherit Gapps
+$(call inherit-product, vendor/gapps/gapps-vendor.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := xtended_hotdogb
@@ -42,3 +42,6 @@ XTENDED_BUILD_TYPE := OFFICIAL
 
 # Maintainer
 XTENDED_MAINTAINER := mady51_mukesh22584
+
+# We're shipping build with Gapps
+WITH_GMS := true
