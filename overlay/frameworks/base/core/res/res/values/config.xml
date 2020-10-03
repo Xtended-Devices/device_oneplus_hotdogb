@@ -103,76 +103,76 @@
          brightness modes but only the maximum brightness value obtainable in a sustainable manner.
          This array should be equal in size to config_screenBrightnessBacklight -->
     <array name="config_screenBrightnessNits">
-        <item>2.0482</item>
-        <item>2.543</item>
-        <item>3.0253</item>
-        <item>3.5077</item>
-        <item>4.0824</item>
-        <item>4.4748</item>
-        <item>5.08</item>
-        <item>6.4233</item>
-        <item>8.0848</item>
-        <item>11.6607</item>
-        <item>13.2347</item>
-        <item>15.0676</item>
-        <item>16.8302</item>
-        <item>18.4261</item>
-        <item>20.3103</item>
-        <item>21.9042</item>
-        <item>23.5456</item>
-        <item>25.2137</item>
-        <item>27.1769</item>
-        <item>28.9571</item>
-        <item>30.5244</item>
-        <item>32.3535</item>
-        <item>34.0867</item>
-        <item>42.366</item>
-        <item>51.1309</item>
-        <item>59.52</item>
-        <item>67.744</item>
-        <item>75.9738</item>
-        <item>84.6332</item>
-        <item>94.1525</item>
-        <item>102.2207</item>
-        <item>110.4878</item>
-        <item>117.0405</item>
-        <item>124.3733</item>
-        <item>130.9928</item>
-        <item>140.4247</item>
-        <item>149.3156</item>
-        <item>157.1995</item>
-        <item>165.3651</item>
-        <item>173.2726</item>
-        <item>181.4272</item>
-        <item>189.1402</item>
-        <item>197.5334</item>
-        <item>205.6301</item>
-        <item>213.9381</item>
-        <item>222.2769</item>
-        <item>230.0891</item>
-        <item>238.6084</item>
-        <item>246.5399</item>
-        <item>255.6544</item>
-        <item>263.6221</item>
-        <item>271.9324</item>
-        <item>279.1449</item>
-        <item>288.5736</item>
-        <item>297.6628</item>
-        <item>306.1899</item>
-        <item>314.4511</item>
-        <item>322.1404</item>
-        <item>330.969</item>
-        <item>338.2251</item>
-        <item>346.2251</item>
-        <item>354.567</item>
-        <item>370.799</item>
-        <item>413.1738</item>
-        <item>415.6397</item>
-        <item>417.264</item>
-        <item>419.264</item>
-        <item>421.264</item>
-        <item>424.646</item>
-        <item>427.6287</item>
+        <item>1.8795507</item>
+        <item>2.4968</item>
+        <item>3.2233882</item>
+        <item>4.2706547</item>
+        <item>4.804483</item>
+        <item>5.6445637</item>
+        <item>7.4446573</item>
+        <item>9.269694</item>
+        <item>10.867266</item>
+        <item>12.986971</item>
+        <item>14.949773</item>
+        <item>16.606539</item>
+        <item>18.890917</item>
+        <item>20.464912</item>
+        <item>22.527655</item>
+        <item>24.740925</item>
+        <item>26.204342</item>
+        <item>28.538923</item>
+        <item>30.100025</item>
+        <item>31.727777</item>
+        <item>34.180862</item>
+        <item>35.888985</item>
+        <item>37.97412</item>
+        <item>47.437016</item>
+        <item>56.948784</item>
+        <item>66.05883</item>
+        <item>75.48495</item>
+        <item>83.97669</item>
+        <item>92.995155</item>
+        <item>101.26669</item>
+        <item>109.82178</item>
+        <item>119.1517</item>
+        <item>128.98256</item>
+        <item>138.40375</item>
+        <item>147.88557</item>
+        <item>157.48535</item>
+        <item>167.533</item>
+        <item>176.83514</item>
+        <item>186.90157</item>
+        <item>196.90625</item>
+        <item>206.60506</item>
+        <item>216.15576</item>
+        <item>226.0679</item>
+        <item>236.1513</item>
+        <item>246.77028</item>
+        <item>258.00708</item>
+        <item>267.68887</item>
+        <item>277.722</item>
+        <item>286.74734</item>
+        <item>296.3042</item>
+        <item>306.5237</item>
+        <item>315.96237</item>
+        <item>327.31213</item>
+        <item>336.307</item>
+        <item>345.84796</item>
+        <item>356.02316</item>
+        <item>366.66678</item>
+        <item>376.36594</item>
+        <item>386.48465</item>
+        <item>396.44244</item>
+        <item>412.67</item>
+        <item>424.426</item>
+        <item>434.57877</item>
+        <item>444.66934</item>
+        <item>455.12158</item>
+        <item>464.80972</item>
+        <item>475.4513</item>
+        <item>485.7623</item>
+        <item>495.26828</item>
+        <item>507.87494</item>
     </array>
 
     <!-- An array describing the screen's backlight values corresponding to the brightness
@@ -258,13 +258,13 @@
          the screen brightness is recalculated. See the config_ambientThresholdLevels
          description for how the constraint value is chosen. -->
     <integer-array name="config_ambientBrighteningThresholds">
-        <item>9000</item> <!-- 1 -->
-        <item>8000</item> <!-- 4 -->
-        <item>7000</item> <!-- 12 -->
-        <item>5000</item> <!-- 20 -->
-        <item>3500</item> <!-- 40 -->
-        <item>2500</item> <!-- 65 -->
-        <item>2000</item> <!-- 90 -->
+        <item>1000</item>
+        <item>1000</item>
+        <item>1000</item>
+        <item>1000</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>1500</item>
         <item>2000</item>
         <item>2000</item>
         <item>2000</item>
@@ -273,6 +273,7 @@
         <item>1500</item>
         <item>1000</item>
         <item>1000</item>
+        <item>200</item>
     </integer-array>
 
     <!-- Array of hysteresis constraint values for darkening, represented as tenths of a
@@ -282,21 +283,22 @@
          the screen brightness is recalculated. See the config_ambientThresholdLevels
          description for how the constraint value is chosen. -->
     <integer-array name="config_ambientDarkeningThresholds">
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
+        <item>500</item>
+        <item>500</item>
+        <item>500</item>
+        <item>500</item>
+        <item>600</item>
+        <item>600</item>
+        <item>600</item>
+        <item>600</item>
+        <item>600</item>
+        <item>600</item>
+        <item>600</item>
+        <item>600</item>
+        <item>600</item>
+        <item>500</item>
+        <item>500</item>
+        <item>200</item>
     </integer-array>
 
     <!-- Array of ambient lux threshold values. This is used for determining hysteresis constraint
@@ -325,6 +327,7 @@
         <item>1300</item>
         <item>2000</item>
         <item>3300</item>
+        <item>6000</item>
     </integer-array>
 
     <!-- Screen brightness used to dim the screen when the user activity
@@ -345,7 +348,7 @@
          when adapting to brighter or darker environments.  This parameter controls how quickly
          brightness changes occur in response to an observed change in light level that exceeds the
          hysteresis threshold. -->
-    <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
+    <integer name="config_autoBrightnessBrighteningLightDebounce">4000</integer>
     <integer name="config_autoBrightnessDarkeningLightDebounce">4000</integer>
 
     <!-- Amount of time it takes for the light sensor to warm up in milliseconds.
@@ -354,7 +357,9 @@
     <integer name="config_lightSensorWarmupTime">200</integer>
 
     <!-- Fast brightness animation ramp rate in brightness units per second-->
-    <integer translatable="false" name="config_brightness_ramp_rate_fast">400</integer>
+    <integer translatable="false" name="config_brightness_ramp_rate_fast">355</integer>
+
+    <integer translatable="false" name="config_brightness_ramp_rate_slow">240</integer>
 
     <!-- The bounding path of the cutout region of the main built-in display.
          Must either be empty if there is no cutout region, or a string that is parsable by
