@@ -22,8 +22,8 @@
 <resources>
     <!-- Respect drawable/rounded.xml intrinsic size for multiple radius corner path customization -->
     <bool name="config_roundedCornerMultipleRadius">true</bool>
-    
-    <!-- Color of the FOD view -->
-    <color name="config_fodColor">#ccccac</color>
+
+    <!-- Color of the UDFPS pressed view -->
+    <color name="config_udfpsColor">#00ffffff</color>
 
 </resources>
