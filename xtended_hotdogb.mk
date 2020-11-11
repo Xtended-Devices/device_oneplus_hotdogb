@@ -41,4 +41,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 XTENDED_BUILD_TYPE := OFFICIAL
 
 # Maintainer
-XTENDED_MAINTAINER := mady51_mukesh22584
+XTENDED_MAINTAINER := mady51_SuperDroidBond
