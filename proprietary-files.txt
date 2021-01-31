@@ -213,21 +213,6 @@ vendor/lib64/libvppclient.so
 vendor/lib64/libvpplibrary.so
 vendor/lib64/libvpptestutils.so
 
-# NFC
-vendor/etc/libnfc-nci_beijingbus.conf
-vendor/etc/libnfc-nci_yangchengtong.conf
-vendor/etc/libnfc-nxp_RF.conf
-vendor/etc/libnfc-nxp_RF_beijingbus.conf
-vendor/etc/libnfc-nxp_RF_changancard.conf
-vendor/etc/libnfc-nxp_RF_noeSE.conf
-vendor/etc/libnfc-nxp_RF_productline.conf
-vendor/etc/libnfc-nxp_RF_productline_noeSE.conf
-vendor/etc/libnfc-nxp_RF_shenzhentong.conf
-vendor/etc/libnfc-nxp_RF_suzhoutong.conf
-vendor/etc/libnfc-nxp_RF_wuhantong.conf
-vendor/etc/libnfc-nxp_RF_yangchengtong.conf
-vendor/etc/libnfc-nxp_RF_zhengzhoubus.conf
-
 # Perf
 vendor/lib/libperfconfig.so
 vendor/lib64/libperfconfig.so
