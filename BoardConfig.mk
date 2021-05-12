@@ -12,15 +12,11 @@ DEVICE_PATH := device/oneplus/hotdogb
 AB_OTA_PARTITIONS += \
     odm \
     product \
-    recovery \
     system_ext \
     vbmeta_system
 
 # Display
 TARGET_SCREEN_DENSITY := 420
-
-# Kernel
-TARGET_KERNEL_CONFIG := vendor/sm8150-perf_defconfig
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 100663296
