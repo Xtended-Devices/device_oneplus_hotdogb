@@ -8,6 +8,9 @@
 BOARD_VENDOR := oneplus
 DEVICE_PATH := device/oneplus/hotdogb
 
+# OTA assert
+TARGET_OTA_ASSERT_DEVICE := OnePlus7T,hotdogb
+
 # A/B
 AB_OTA_PARTITIONS += \
     odm \
