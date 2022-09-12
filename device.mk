@@ -9,10 +9,13 @@ $(call inherit-product, device/oneplus/sm8150-common/common.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/oneplus/hotdogb/hotdogb-vendor.mk)
 
+#  Boot animation
+TARGET_BOOT_ANIMATION_RES := 1080
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-xtended
 
 # Audio
 PRODUCT_COPY_FILES += \
