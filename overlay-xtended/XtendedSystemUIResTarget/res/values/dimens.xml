@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2021 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+
+<resources>
+
+    <!-- Recognizing fingerprint animation -->
+    <dimen name="udfps_animation_size">176dp</dimen>
+    <dimen name="udfps_animation_offset">12dp</dimen>
+
+    <!-- Alert Slider UI for OnePlus 7T Pro -->
+    <dimen name="tri_state_down_dialog_position">563.0px</dimen>
+    <dimen name="tri_state_down_dialog_position_l">410.0px</dimen>
+    <dimen name="tri_state_middle_dialog_position">436.0px</dimen>
+    <dimen name="tri_state_middle_dialog_position_l">410.0px</dimen>
+    <dimen name="tri_state_up_dialog_position">305.0px</dimen>
+    <dimen name="tri_state_up_dialog_position_l">410.0px</dimen>
+    <dimen name="tri_state_up_dialog_position_deep">21.0px</dimen>
+    <dimen name="tri_state_up_dialog_position_deep_land">21.0px</dimen>
+
+</resources>
